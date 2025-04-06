@@ -12,7 +12,7 @@ namespace MilhasPraKm
             milhas = Convert.ToDouble(Console.ReadLine()!);
 
             km = milhas * 1.609;
-            Console.WriteLine($"{km} km.");
+            Console.WriteLine($"{km:F2} km.");
         }
     }
 }
